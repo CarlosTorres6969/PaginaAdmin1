@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eco-Wallet</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Habilitar scroll dinámico */
+    html {
+      scroll-behavior: smooth; /* Activa el desplazamiento suave */
+    }
+
+    /* Galería de productos */
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .producto {
+      width: 300px;
+      text-align: center;
+    }
+    .producto img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .producto p {
+      margin-top: 10px;
+    }
+
+    /* Estilos adicionales para mejorar la navegación */
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2rem;
+      padding: 10px;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #333; /* Color de fondo al pasar el ratón */
+      color: #ff9900; /* Cambia el color del texto */
+      transform: scale(1.1); /* Efecto de ampliación */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Eco-Wallet</h1>
+    <nav>
+      <ul>
+        <li><a href="#mision">Misión</a></li>
+        <li><a href="#vision">Visión</a></li>
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="mision">
+      <h2>Misión</h2>
+      <p>En Eco-Wallet, nos dedicamos a la creación de carteras únicas y ecológicas utilizando materiales reciclados como bolsas de churro y otros productos desechados. Nuestra misión es transformar residuos en artículos de moda funcionales, reduciendo el impacto ambiental mientras ofrecemos soluciones innovadoras y accesibles para un futuro más sostenible.</p>
+    </section>
+
+    <section id="vision">
+      <h2>Visión</h2>
+      <p>Ser la empresa pionera en la producción de carteras ecológicas a partir de materiales reciclados, como bolsas de churro, con el objetivo de promover la reutilización y la economía circular. Buscamos inspirar a otras marcas y personas a repensar el desperdicio como un recurso, contribuyendo a la creación de un mundo más limpio y responsable.</p>
+    </section>
+
+    <section id="historia">
+      <h2>Nuestra Historia</h2>
+      <p>Eco-Wallet nació con la idea de transformar el desperdicio en una oportunidad. Un grupo de jóvenes emprendedores, apasionados por la sostenibilidad, identificó el potencial de las bolsas de churro desechadas, material que normalmente termina en vertederos, para ser reutilizado de forma creativa. Así comenzó nuestro viaje: recolectando bolsas de churro y otros materiales reciclables, y dándoles una nueva vida como carteras únicas y ecológicas. Desde nuestros inicios, nos hemos comprometido a reducir el impacto ambiental y a ofrecer productos funcionales, innovadores y responsables con el medio ambiente.</p>
+    </section>
+
+    <section id="productos">
+      <h2>Productos</h2>
+      <div class="galeria">
+        <div class="producto">
+          <img src="../../images/churro1.jpg" alt="Cartera de bolsa de churro">
+          <p>Cartera hecha a partir de bolsas de churro recicladas. Diseño único y ecológico.</p>
+        </div>
+        <div class="producto">
+          <img src="../../images/churro2.jpg" alt="Cartera de material reciclado">
+          <p>Cartera innovadora creada con materiales reciclados, elegante y funcional.</p>
+        </div>
+        <div class="producto">
+          <img src="../../images/churro3.jpg" alt="Cartera ecológica">
+          <p>Cartera ecológica hecha 100% de residuos reciclados, perfecta para tu estilo responsable.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Email: ecowallet@gmail.com</p>
+      <p>Teléfono: +504 9522-1209</p>
+    </section>
+    <p>&copy; 2024 Eco-Wallet</p>
+  </footer>
+</body>
+</html>
